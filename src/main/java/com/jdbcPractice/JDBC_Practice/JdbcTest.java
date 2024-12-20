@@ -14,7 +14,7 @@ public class JdbcTest {
 		String url=
 				 "jdbc:oracle:thin:@microcaredb3_high?TNS_ADMIN=C://Users//kmdta//OneDrive//Documents//Desktop//Java_Full_Stack//Wallet_microcaredb3";
 		String username="Admin";
-		String password="Microcaredb3";
+		String password="";
 		String query="select * from datatable;";
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
